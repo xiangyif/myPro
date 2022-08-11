@@ -18,7 +18,7 @@ import styles from './style.less';
 const { Option } = Select;
 
 export function formatWan(val: number) {
-  const v = val * 1;
+  const v = val;
   if (!v || Number.isNaN(v)) return '';
 
   let result: React.ReactNode = val;

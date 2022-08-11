@@ -5,7 +5,7 @@ import { Statistic } from 'antd';
 import styles from './index.less';
 
 function fixedZero(val: number) {
-  return val * 1 < 10 ? `0${val}` : val;
+  return val < 10 ? `0${val}` : val;
 }
 
 function getActiveData() {

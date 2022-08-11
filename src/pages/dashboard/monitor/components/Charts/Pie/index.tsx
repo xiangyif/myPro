@@ -20,7 +20,7 @@ export type PieProps = {
   padding?: [number, number, number, number];
   percent?: number;
   data?: {
-    x: string | string;
+    x: string;
     y: number;
   }[];
   inner?: number;
@@ -175,7 +175,7 @@ class Pie extends Component<PieProps, PieState> {
 
     const { legendData, legendBlock } = this.state;
     const pieClassName = classNames(styles.pie, className, {
-      [styles.hasLegend]: !!hasLegend,
+      [styles.hasLegend]: hasLegend,
       [styles.legendBlock]: legendBlock,
     });
 
@@ -258,7 +258,7 @@ class Pie extends Component<PieProps, PieState> {
               animate={animate}
               onGetG2Instance={this.getG2Instance}
             >
-              {!!tooltip && <Tooltip showTitle={false} />}
+              {tooltip && <Tooltip showTitle={false} />}
               <Coord type="theta" innerRadius={inner} />
               <Geom
                 style={{ lineWidth, stroke: '#fff' }}
