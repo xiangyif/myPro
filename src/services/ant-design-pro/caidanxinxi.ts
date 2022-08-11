@@ -1,5 +1,4 @@
 // @ts-ignore
-/* eslint-disable */
 import { request } from 'umi';
 
 /** 获取菜单资源树列表 GET /storeApp/menu/menuResourceTree */

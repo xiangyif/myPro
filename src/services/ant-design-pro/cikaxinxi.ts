@@ -1,5 +1,4 @@
 // @ts-ignore
-/* eslint-disable */
 import { request } from 'umi';
 
 /** 新增 POST /storeApp/countMeal/add */

@@ -1,5 +1,4 @@
 // @ts-ignore
-/* eslint-disable */
 import { request } from 'umi';
 
 /** 获取打印参数列表 GET /storeApp/printConfig/list */

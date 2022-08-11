@@ -1,5 +1,5 @@
-// @ts-ignore
 /* eslint-disable */
+// @ts-ignore
 import { request } from 'umi';
 
 /** 获取短信验证码 POST /storeApp/loginApi/getMobileCode */
